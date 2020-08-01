@@ -1,0 +1,12 @@
+.Header {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    background-color: #434445;
+    color: #fff;
+    font-family: Lato;
+}
