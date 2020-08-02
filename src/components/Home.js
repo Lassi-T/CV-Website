@@ -5,8 +5,11 @@ import ProfilePic from '../images/TutorKuva5.png'
 const Home = () => {
   return (
     <Container>
+      <Row style={{ padding: '20px' }}>
+        <h1>Home Page</h1>
+      </Row>
       <Row>
-        <Col>
+        <Col style={{ padding: '20px' }}>
           <Image src={ProfilePic} width={200} height={200} alt='ProfilePic' roundedCircle />
         </Col>
       </Row>

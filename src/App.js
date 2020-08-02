@@ -3,21 +3,22 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Home from './components/Home'
 import Contact from './components/Contact'
+import NoMatch from './components/NoMatch'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 const App = () => {
   return (
-    <Router>
-      <div className='App'>
+    <div className='App'>
+      <Router>
         <Header />
-        <h1 className='Text'>Home Page</h1>
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/contact' component={Contact} />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/contact' component={Contact} />
+          <Route component={NoMatch} />
         </Switch>
-      </div>
-    </Router>
+      </Router>
+    </div>
   )
 }
 
