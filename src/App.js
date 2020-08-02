@@ -7,17 +7,18 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
 const App = () => {
-    return (
-        <Router>
-            <div className="body">
-                <Header />
-                <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/contact" component={Contact} />
-                </Switch>
-            </div>
-        </Router>
-    )
+  return (
+    <Router>
+      <div className='App'>
+        <Header />
+        <h1 className='Text'>Home Page</h1>
+        <Switch>
+          <Route path='/' exact component={Home} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+      </div>
+    </Router>
+  )
 }
 
 export default App

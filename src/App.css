@@ -1,7 +1,9 @@
 .App {
-    background-color: white;
+  background-color: white;
 }
 
-.Home {
-    text-align: center;
+.Text {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 1em;
 }
