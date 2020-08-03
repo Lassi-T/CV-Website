@@ -24,10 +24,11 @@ const Home = () => {
             <Media.Body>
               <h5 className='title'>Lassi Timoskainen</h5>
               <p className='textBox'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc leo quam, pharetra sit amet
-                luctus in, lacinia nec ante. Etiam nisl diam, commodo vitae orci eget, mollis fermentum lacus.
-                Donec at nibh sem. Ut egestas sodales lobortis. Praesent interdum dolor eu nunc auctor
-                posuere. Ut scelerisque quam eu purus rutrum pellentesque.
+                Welcome to my website!
+                <br />
+                I made this online portfolio site using React, utilizing some Reactboostrap components.
+                <br />
+                Here you can find my CV, my contact information, a link to my GitHub page and some media.
               </p>
             </Media.Body>
           </Media>
