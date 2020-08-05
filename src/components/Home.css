@@ -1,9 +1,8 @@
-.imageDiv {
+.profileImageDiv {
   padding: 20px;
-  padding-top: 70px;
-  padding-bottom: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   text-align: center;
-  margin-top: 20px;
 }
 
 .whiteBorder {
@@ -21,7 +20,7 @@
   background: rgb(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 20px;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .text {

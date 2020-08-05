@@ -1,9 +1,11 @@
 import React from 'react'
 import { Container, Col, Row, Image, Media } from 'react-bootstrap'
+import './Contact.css'
+
+// Icons used in the contact page
 import TelegramPic from '../images/telegram.png'
 import EmailPic from '../images/email.png'
 import PhonePic from '../images/phone.png'
-import './Contact.css'
 
 // Make contact boxes flow on top of each other!
 

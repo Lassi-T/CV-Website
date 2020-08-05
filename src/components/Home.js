@@ -1,16 +1,18 @@
 import React from 'react'
 import { Container, Col, Row, Media, Image } from 'react-bootstrap'
+import './Home.css'
+
+//All the images used in the frontpage
 import ProfilePic from '../images/TutorKuva5.png'
 import GitHubPic from '../images/GitHub-Mark-Light-120px-plus.png'
 import LinkedinPic from '../images/LI-In-Bug.png'
 import InstagramPic from '../images/instagram.png'
-import './Home.css'
 
 const Home = () => {
   return (
     <Container>
       <Row>
-        <Col className='imageDiv'>
+        <Col className='profileImageDiv'>
           <Image
             src={ProfilePic}
             className='whiteBorder'

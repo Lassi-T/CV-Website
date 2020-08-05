@@ -1,10 +1,12 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
+import './Home.css'
 
 const NoMatch = () => {
   return (
-    <div>
-      <h3 style={{ textAlign: 'center', padding: '20px' }}>404 - Nothing to see here</h3>
-    </div>
+    <Container className='textBox'>
+      <h3 className='mainTitle'>404 - Nothing to see here</h3>
+    </Container>
   )
 }
 
