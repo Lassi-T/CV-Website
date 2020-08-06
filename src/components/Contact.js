@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Col, Row, Image, Media } from 'react-bootstrap'
 import './Contact.css'
+import './Home.css'
 
 // Icons used in the contact page
 import TelegramPic from '../images/telegram.png'
@@ -19,24 +20,39 @@ const Contact = () => {
       </Row>
       <Row>
         <Col>
-          <Media.Body className='infoBox'>
+          <Media.Body className='textBox'>
             <Image className='imageDiv' src={TelegramPic} alt='Telegram picture'></Image>
-            <h4 className='textDiv'>Telegram</h4>
+            <h4 className='mainTitle'>Telegram</h4>
+            <div className='divider'></div>
             <p className='subTextDiv'>@LassiT</p>
           </Media.Body>
         </Col>
         <Col>
-          <Media.Body className='infoBox'>
-            <Image className='imageDiv' src={EmailPic} width={160} height={160} alt='Telegram picture'></Image>
-            <h4 className='textDiv'>Email</h4>
+          <Media.Body className='textBox'>
+            <Image
+              className='imageDiv'
+              src={EmailPic}
+              width={160}
+              height={160}
+              alt='Telegram picture'
+            ></Image>
+            <h4 className='mainTitle'>Email</h4>
+            <div className='divider'></div>
             <p className='subTextDiv'>timoskainen.lassi(at).com</p>
             <p className='subTextDiv'>lassi.timoskainen(at)tuni.fi</p>
           </Media.Body>
         </Col>
         <Col>
-          <Media.Body className='infoBox'>
-            <Image className='imageDiv' src={PhonePic} width={160} height={160} alt='Telegram picture'></Image>
-            <h4 className='textDiv'>Phone</h4>
+          <Media.Body className='textBox'>
+            <Image
+              className='imageDiv'
+              src={PhonePic}
+              width={160}
+              height={160}
+              alt='Telegram picture'
+            ></Image>
+            <h4 className='mainTitle'>Phone</h4>
+            <div className='divider'></div>
             <p className='subTextDiv'>+358 044 XXX XXXX</p>
           </Media.Body>
         </Col>
