@@ -8,8 +8,6 @@ import TelegramPic from '../images/telegram.png'
 import EmailPic from '../images/email.png'
 import PhonePic from '../images/phone.png'
 
-// Make contact boxes flow on top of each other!
-
 const Contact = () => {
   return (
     <Container>
@@ -29,13 +27,7 @@ const Contact = () => {
         </Col>
         <Col>
           <Media.Body className='textBox'>
-            <Image
-              className='imageDiv'
-              src={EmailPic}
-              width={160}
-              height={160}
-              alt='Telegram picture'
-            ></Image>
+            <Image className='imageDiv' src={EmailPic} alt='Telegram picture'></Image>
             <h4 className='mainTitle'>Email</h4>
             <div className='divider'></div>
             <p className='subTextDiv'>timoskainen.lassi(at).com</p>
@@ -44,13 +36,7 @@ const Contact = () => {
         </Col>
         <Col>
           <Media.Body className='textBox'>
-            <Image
-              className='imageDiv'
-              src={PhonePic}
-              width={160}
-              height={160}
-              alt='Telegram picture'
-            ></Image>
+            <Image className='imageDiv' src={PhonePic} alt='Telegram picture'></Image>
             <h4 className='mainTitle'>Phone</h4>
             <div className='divider'></div>
             <p className='subTextDiv'>+358 044 XXX XXXX</p>
