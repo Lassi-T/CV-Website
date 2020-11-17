@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navbar, Nav } from 'react-bootstrap'
 import './Header.css'
-import CVPic from '../images/cvpic.jpg'
+import CVPic from '../images/cvpic.png'
 
 const Header = () => {
   return (
