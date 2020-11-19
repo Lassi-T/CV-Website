@@ -31,14 +31,29 @@ const Home = () => {
               <div className='divider'></div>
               <p className='text'>Python | C/C++ | JavaScript | React | NodeJS</p>
               <div className='imageRow'>
-                <a href='https://github.com/Lassi-T' target='_blank' rel='noopener noreferrer'>
-                  <Image src={GitHubPic} width={40} height={40} />
+                <a
+                  className='centerImage'
+                  href='https://github.com/Lassi-T'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Image className='icon' src={GitHubPic} />
                 </a>
-                <a className='centerImage' href='https://www.linkedin.com/in/lassi-timoskainen-73b0261b4/' target='_blank' rel='noopener noreferrer'>
-                  <Image src={LinkedinPic} width={40} height={40} />
+                <a
+                  className='centerImage'
+                  href='https://www.linkedin.com/in/lassi-timoskainen-73b0261b4/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Image className='icon' src={LinkedinPic} />
                 </a>
-                <a className='rightImage' href='https://www.instagram.com/lassii/?hl=fi' target='_blank' rel='noopener noreferrer'>
-                  <Image src={InstagramPic} width={40} height={40} />
+                <a
+                  className='centerImage'
+                  href='https://www.instagram.com/lassii/?hl=fi'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <Image className='icon' src={InstagramPic} />
                 </a>
               </div>
             </Media.Body>
